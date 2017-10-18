@@ -1,0 +1,220 @@
+body
+{
+	margin:0px;
+	padding:0px;
+	width:100%;
+	background-image:url(../images/background_image.jpg);
+}
+
+.main
+{
+	width:1024px;
+	float:left;
+	margin-left:145px;
+	
+}
+
+.header
+{
+	
+	width:100%;
+	float:left;
+}
+
+.head_image
+{
+	width:162px;
+	float:left;
+}
+
+.hello_user
+{
+	margin-left:268px;
+	padding:0px;
+	width:285px;
+	float:left;	
+}
+
+.hello_user p
+{
+	margin:0px;
+	font-size:47px;
+	font-family:"Lucida Calligraphy";
+	padding:56px 0 56px 200px;
+}
+
+.container
+{
+	width:100%;
+	float:left;
+	margin-top:106px;
+	margin-left: 6px;
+}
+
+
+.menu
+{
+	width:100%;
+	float:left;
+}
+
+.menu ul li
+{
+	list-style:none;
+	font-size:32px;
+	
+	font-family:"Bernard MT Condensed";
+}
+.menu_list
+{
+	width:150px;
+	border-radius:10px;
+	color:#F00;
+	background-color:#FFF;
+	float:left;
+	padding:10px;
+	margin-left: 111px;
+}
+
+a
+{
+	text-decoration:none;
+	color:#F00;
+}
+
+#clockhr
+{
+	float:left;
+	width:45px;
+	height:30px;
+	border-radius:10px;
+	background-color:red;
+	color:white;
+}
+
+#clockmin
+{
+	float:left;
+	width:45px;
+	height:30px;
+	border-radius:10px;
+	background-color:red;
+	color:white;
+}
+
+#clocksec
+{
+	float:left;
+	width:45px;
+	height:30px;
+	border-radius:10px;
+	background-color:#F00;
+	color:#FFF;
+	border:1px solid black;
+}
+
+.colon
+{
+	float:left;
+	width:10px;
+	heigth:30px;
+	border-radius:10px;
+	color:black;
+}
+
+.time
+{
+	float:left;
+	width:150px;
+	border:1px solid black;
+}
+
+h1
+{
+	font-family:"inherit";
+	color:#FF0;
+	font-size:34px;
+}
+
+
+.tab
+{
+	margin-top:12px;
+	width:100%;
+}
+
+/*form
+{
+	margin-top:51px;
+	margin-left: 112px;
+	
+}*/
+
+.frm
+{
+	margin-left:10px;
+	float:left;
+	width:100%;
+	text-align:center;
+}
+
+.contain
+{
+	float:left;
+	background-color:#FFF;
+	width:33%;
+	border-radius:1px solid black;
+	box-shadow:1px 2px 3px #00F;
+	margin-left: 354px;
+	padding-left: 36px;
+	
+}
+
+.submit
+{
+	
+	width:71%;
+	background-color:#09F;
+	float:left;
+	margin-bottom: 14px;
+	text-align: center;
+	color:#000;
+	margin-left:38px;
+	
+}
+
+h2
+{
+	font-family:inherit;
+	text-align:center;
+	color:red;
+}
+
+label
+{
+	font-family:"Tahoma";
+}
+
+
+.name
+{
+	float:left;
+	width:353px;
+	margin-left:123px;
+}
+
+.box
+{
+	
+	float:left;
+	width:430px;
+}
+
+
+.sub
+{
+	margin-left:437px;
+	width:100px;
+	float:left;
+	
+}

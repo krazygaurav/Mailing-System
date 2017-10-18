@@ -1,0 +1,247 @@
+
+body, div, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+    line-height: 2;
+}
+select {
+    border: 0 none;
+    height: 25px;
+    padding: 3px;
+    width: 73%;
+}
+li {
+    list-style: none outside none;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+img {
+    border: 0 none;
+}
+header {
+    display: block;
+}
+.heading{
+	position: absolute;
+	top: calc(30% - 35px);
+	left: 30%;
+	z-index: 2;
+}
+
+.heading div{
+	float: left;
+	color: #fff;
+	font-family: "Titillium Web";
+	font-size: 35px;
+	font-weight: 200;
+}
+
+.heading div span{
+	color: #5379fa !important;
+}
+body {
+    background: url(../images/city-skyline-wallpapers-008.jpg) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #3a2127;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+.container {
+    margin-bottom: 15px;
+    position: relative;
+}
+.clr {
+    clear: both;
+}
+.container > header {
+    display: block;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+}
+.container > header h1 {
+    color: #275973;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 0 0 5px;
+    position: relative;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);
+}
+.container > header h1 strong {
+    color: #275973;
+    font-family: 'Open Sans Condensed','Arial Narrow',Arial,sans-serif;
+    font-size: 28px;
+    line-height: 35px;
+    padding: 0 5px;
+    text-transform: uppercase;
+}
+.container > header h1 span {
+    color: #5a99ba;
+    display: block;
+    font-family: 'Alegreya SC',Georgia,serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 20px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+.freshdesignweb-top {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 0 5px rgba(0, 0, 0, 0.2);
+    color: #275973;
+    font-size: 11px;
+    line-height: 44px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+}
+.freshdesignweb-top a {
+    color: #fcca00;
+}
+.freshdesignweb-top a:hover {
+    color: #0b2f42;
+}
+.freshdesignweb-top h1 {
+    background: url("images/logo.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    font-family: 'Open Sans Condensed','Arial Narrow',Arial,sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0 auto;
+    text-shadow: 2px 2px 0 #f2f2f2, 1px 2px 0 #b1b1b2;
+    text-transform: uppercase;
+    width: 490px;
+}
+.freshdesignweb-buttom {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 0 5px rgba(0, 0, 0, 0.2);
+    color: #009;
+    font-family: 'Open Sans Condensed','Arial Narrow',Arial,sans-serif;
+    font-size: 11px;
+    line-height: 24px;
+    position: relative;
+    text-transform: uppercase;
+}
+.freshdesignweb-buttom a {
+    display: block;
+    float: left;
+    letter-spacing: 1px;
+    padding: 0 10px;
+    text-shadow: 0 1px 1px #fff;
+}
+.freshdesignweb-buttom a:hover {
+    background: none repeat scroll 0 0 #fff;
+}
+.freshdesignweb-buttom span.right {
+    float: right;
+    font-weight: bold;
+}
+.freshdesignweb-buttom span.right a {
+    display: block;
+}
+
+@charset "utf-8";
+
+
+.form {
+    background: none repeat scroll 0 0 #F1F1F1;
+    float: right;
+    margin-right: 170px;
+    margin-top: 5px;
+    padding-left: 50px;
+    padding-top: 20px;
+    width: 470px;
+}
+.form fieldset {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+.form p.contact {
+    font-family: Arial,Helvetica;
+    font-size: 12px;
+    line-height: 14px;
+    margin: 0 0 10px;
+}
+.form input[type="text"] {
+    width: 400px;
+}
+.form input[type="email"] {
+    width: 400px;
+}
+.form input[type="password"] {
+    width: 400px;
+}
+.form input.birthday {
+    width: 60px;
+}
+.form input.birthyear {
+    width: 120px;
+}
+.form label {
+    color: #000;
+    font-family: Arial,Helvetica;
+    font-size: 12px;
+    font-weight: bold;
+}
+.form label.month {
+    width: 135px;
+}
+.form input, textarea {
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 1px solid rgba(122, 192, 0, 0.15);
+    color: #4b4b4b;
+    font-family: Keffeesatz,Arial;
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-top: -10px;
+    padding: 7px;
+}
+.form input:focus, textarea:focus {
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid #ff5400;
+}
+.form .select-style {
+    background-position: right center;
+    background-repeat: no-repeat;
+    border: 0 solid #fff;
+    color: #555;
+    font-size: inherit;
+    margin: 0;
+    overflow: hidden;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.form .gender {
+    width: 410px;
+}
+.form input.buttom {
+    background: none repeat scroll 0 0 #4b8df9;
+    border: medium none;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px #999;
+    color: #fbf7f7;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1;
+    padding: 5px 10px 6px;
+    position: relative;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #222;
+}
+.form input.buttom:hover {
+    background-color: #2a78f6;
+}
+/* CSS Document */
+
